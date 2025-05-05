@@ -190,7 +190,6 @@ section {
     justify-content: space-evenly;
     height: 300px;
     border-bottom: 2px solid var(--secundary-color);
-    /* padding-bottom: 30px; */
 }
 .titulo-opcoes {
     display: flex;
@@ -204,6 +203,10 @@ section {
 .titulo-opcoes a {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.opcoes-cardapio.bebida {
+    border: none;
 }
 
 .pizza.bebida {
